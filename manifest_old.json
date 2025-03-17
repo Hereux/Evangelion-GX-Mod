@@ -1,0 +1,160 @@
+{
+    "description": "Evangelion based browser",
+    "developer":
+    {
+        "name": "Hereux"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/evangelion_theme_compilation.wav"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/feature_switch_off.wav"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/feature_switch_on.wav"
+                ],
+                "HOVER":
+                [
+                    "sound/hover.wav"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.wav"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/important_click.wav"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/level_upgrade.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/limiter_off.wav"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/limiter_on.wav"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/switch.wav"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/ramiel_scream.wav"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/new_tab.wav"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/tab_slash.wav"
+                ]
+            },
+            "image_overrides": [ {
+               "id": "image_overrides_01",
+               "images": {
+                  "sidebar_gx_booster_button": "icons/sidebar_gx_booster_button.json",
+                  "sidebar_settings_button": "icons/sidebar_settings_button.json",
+                  "sidebar_shaders_button": "icons/sidebar_shaders_button.json",
+                  "sidebar_sticky_site_button": "icons/sidebar_sticky_site_button.json"
+               },
+               "name": "Let's Game It Out"
+            } ],
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/backspace.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/enter.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/letter_1.wav",
+                    "keyboard/letter_1.wav",
+                    "keyboard/letter_1.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/space.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 24,
+                        "s": 100,
+                        "l": 53
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 6,
+                        "s": 25.6,
+                        "l": 20
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 112,
+                        "s": 80,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/dark.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/light.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 2
+    },
+    "name": "Evangelion",
+    "version": "1.0"
+}
