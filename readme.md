@@ -1,4 +1,4 @@
-# Evangelion GX Mod
+# Neon Genesis Evangelion 3.0 GX Mod
 
 ![Evangelion GX Mod Banner](./wallpaper/dark.png)
 
