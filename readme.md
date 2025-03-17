@@ -1,6 +1,6 @@
 # Evangelion GX Mod
 
-![Evangelion GX Mod Banner](https://via.placeholder.com/800x200)
+![Evangelion GX Mod Banner](./wallpaper/dark.png)
 
 Your new favorite Neon Genesis Evangelion based web browser! This mod brings the iconic design and atmosphere of Evangelion to Opera GX.
 
